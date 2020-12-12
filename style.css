@@ -30,7 +30,6 @@ form {
 form header {
     position: relative;
     width: 100%;
-    outline: 1px solid blue;
     height: 250px;
 }
 
