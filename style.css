@@ -7,7 +7,6 @@
 }
 
 body {
-    /* color: #969795; */
     background-image: url('images/bg.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -23,8 +22,7 @@ body {
 }
 
 form {
-    /* background: white; */
-    outline: 1px solid blue;
+    background: white;
     border-radius: 10px;
     width: 900px;
 }
@@ -55,7 +53,7 @@ form header .heading h2 {
 }
 
 form .fields {
-    padding: 0 7rem;
+    padding: 3.5rem 7rem 4.5rem 7rem;
 }
 
 form .fields > .input-group {
@@ -65,6 +63,7 @@ form .fields > .input-group {
 }
 
 form .fields > .input-group label {
+    color: #969795;
     direction: rtl;
     width: 13%;
     margin-right: 1rem;
@@ -86,9 +85,16 @@ form .fields > .input-group textarea  {
     border-bottom: 2px solid #CCCCCC;
     font-family: Poppins;
     font-size: 16px;
+    color: #969795;
+}
+
+form .fields > .input-group input::placeholder,
+form .fields > .input-group textarea::placeholder {
+    color: #dadada;
 }
 
 form button {
+    margin-top: 1rem;
     margin-left: 102px;
     display: inline-flex;
     align-items: center;
