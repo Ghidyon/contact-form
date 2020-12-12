@@ -19,6 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Poppins;
+    padding: 5rem 0;
 }
 
 form {
@@ -75,6 +76,7 @@ form .fields > .input-group:last-of-type label {
     align-self: flex-start;
     margin-top: .8rem;
 }
+
 form .fields > .input-group input,
 form .fields > .input-group textarea  {
     width: 87%;
@@ -86,8 +88,20 @@ form .fields > .input-group textarea  {
     font-size: 16px;
 }
 
-form .fields > .input-group input::placeholder,
-form .fields > .input-group textarea::placeholder {
-    /* font-family: Poppins;
-    font-size: 16px; */
-} 
+form button {
+    margin-left: 102px;
+    display: inline-flex;
+    align-items: center;
+    padding: .8rem 2.2rem;
+    font-size: 16px;
+    font-family: Poppins;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #56B744;
+    border: 0;
+    color: white;
+}
+
+form button > span {
+    margin-right: .5rem;
+}
